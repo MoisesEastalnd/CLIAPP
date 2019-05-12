@@ -18,7 +18,7 @@ INSERT INTO products(product_name,department_name,price,)
 VALUES("bottled water","drinks",8);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("");
+VALUES("dress shirt","clothing",12);
 
 INSERT INTO products(product_name,department_name,price)
 VALUES("");
