@@ -19,3 +19,56 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
   connection.end();
 });
+
+function displayProduct(){
+    inquirer 
+    .prompt([
+        {
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },{
+            id:"",
+            name:"",
+            price:""
+        },
+        {
+            message:"What is the ID number of the item you would like to purchase?",
+            message:"How many units would like?",
+        }
+    
+        
+    ])
+}

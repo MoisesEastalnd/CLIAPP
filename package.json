@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MoisesEastalnd/CLIAPP/issues"
   },
-  "homepage": "https://github.com/MoisesEastalnd/CLIAPP#readme"
+  "homepage": "https://github.com/MoisesEastalnd/CLIAPP#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
 }
