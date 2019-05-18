@@ -3,41 +3,41 @@ CREATE DATABASE bamazon_db;
 USE bamazon_db;
 
 CREATE TABLE products(
-item_id INTEGER (8) AUTO_INCREMENT NOT NULL,
+item_id INT AUTO_INCREMENT NOT NULL,
 product_name VARCHAR(15),
 department_name VARCHAR(15),
-price INTEGER(6),
-stock_quantity INTEGER(5) AUTO_INCREMENT 
+price DECIMAL (10.2),
+stock_quantity INT NOT NULL
 );
 
 
 INSERT INTO products(product_name,department_name,price,)
-VALUES("COFFEE TABLE","FUNITURE",200);
+VALUES("coffee table","funiture",200.00);
 
 INSERT INTO products(product_name,department_name,price,)
-VALUES("bottled water","drinks",8);
+VALUES("recliner","funiture",250.00);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("dress shirt","clothing",12);
+VALUES("dress shirt","clothing",12.00);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("");
+VALUES("hat","clothing",8.00);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("");
+VALUES("joggers","clothing",25.00);
 
 INSERT INTO product(product_name,department_name,price)
-VALUES("");
+VALUES("backpack", "clothing",13.00);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("");
+VALUES("slippers","clothing",5.00);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("");
+VALUES("ottoman","funiture",50.00);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("");
+VALUES("lamp","funiture",20.00);
 
 INSERT INTO products(product_name,department_name,price)
-VALUES("");
+VALUES("sectional","funiture",700.00);
 

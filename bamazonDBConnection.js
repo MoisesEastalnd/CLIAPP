@@ -66,9 +66,9 @@ function displayProduct(){
         },
         {
             message:"What is the ID number of the item you would like to purchase?",
-            message:"How many units would like?",
+            message:"How many units would like to purchase?",
         }
     
-        
+       
     ])
 }
